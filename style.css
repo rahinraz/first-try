@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 h1{
     font-size: 50px;
@@ -7,6 +8,13 @@ h1{
 section{
     display: flex;
     padding-bottom: 10%;
+}
+.halff{
+    width:50%;
+    padding-left: 5%;
+    background-image: url(dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half{
     width:50%;
@@ -26,6 +34,11 @@ section{
     font-weight: 600;
     color: white;
 }
+.first-web{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .hire2{
     background-image:linear-gradient(#FF9470,#FF6549);
     text-decoration: none;
@@ -35,3 +48,44 @@ section{
     font-weight: 600;
     border-radius: 5px;
  }
+
+
+
+
+
+
+
+
+
+
+
+.exp-web{
+    box-shadow: 10px 10px 10px 10px gray;
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h2{
+    font-size: 40px;
+}
+.orange{
+    color:orange;
+}
+#asdf{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+#zxcv{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.exp-img{
+    background-image: url(exp.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
